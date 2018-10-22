@@ -29,7 +29,7 @@ class Categorias(QtWidgets.QWidget):
 		
 		conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="tpv")
 		cursor = conexion.cursor()
-		last_id = "SELECT * FROM categorias ORDER BY id_categorias DESC LIMIT 1"	
+		last_id = "SELECT * FROM categorias ORDER BY id_categoria DESC LIMIT 1"	
 		cursor.execute(last_id)
 		codigo = cursor.fetchone()
 		for row in codigo:
@@ -41,7 +41,7 @@ class Categorias(QtWidgets.QWidget):
 		cursor = conexion.cursor()
 		idcateg = self.id_categoria.text()
 		nombrecateg = self.nombre_categoria.text()			
-		sql = "INSERT INTO categorias (id_categorias, nombre_categorias) VALUES (%s, %s)"
+		sql = "INSERT INTO categorias (id_categoria, nombre_categoria) VALUES (%s, %s)"
 		val=(idcateg, nombrecateg)
 		cursor.execute(sql, val)
 		conexion.commit()

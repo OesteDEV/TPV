@@ -31,7 +31,7 @@
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="2" column="1">
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="guardar">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
        <horstretch>0</horstretch>
@@ -117,7 +117,7 @@
      </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="1" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_2">
+       <widget class="QLineEdit" name="nombre_vendedor">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -342,7 +342,7 @@
        </widget>
       </item>
       <item row="0" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit">
+       <widget class="QLineEdit" name="id_vendedor">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -482,7 +482,7 @@
        </widget>
       </item>
       <item row="2" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_3">
+       <widget class="QLineEdit" name="contrasenia_vendedor">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -533,6 +533,9 @@
           <weight>75</weight>
           <bold>true</bold>
          </font>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
         </property>
        </widget>
       </item>
