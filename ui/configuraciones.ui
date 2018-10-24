@@ -454,13 +454,6 @@ background-color: #FFFFFF
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <pointsize>8</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Ventas del día</string>
         </property>
@@ -905,13 +898,6 @@ background-color: #FFFFFF
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <pointsize>8</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Vendedores</string>
         </property>
@@ -1355,13 +1341,6 @@ background-color: #FFFFFF
            </colorrole>
           </disabled>
          </palette>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>8</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
         </property>
         <property name="text">
          <string>Caja</string>
@@ -1820,13 +1799,6 @@ background-color: #FFFFFF
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <pointsize>8</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Categorias</string>
         </property>
@@ -2270,13 +2242,6 @@ background-color: #FFFFFF
            </colorrole>
           </disabled>
          </palette>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>8</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
         </property>
         <property name="text">
          <string>Generar Listados</string>

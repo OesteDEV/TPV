@@ -44,14 +44,6 @@
        <height>35</height>
       </size>
      </property>
-     <property name="font">
-      <font>
-       <family>Arial</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
      <property name="text">
       <string>Guardar</string>
      </property>
@@ -59,48 +51,11 @@
       <iconset>
        <normaloff>icon/guardar.png</normaloff>icon/guardar.png</iconset>
      </property>
-     <property name="iconSize">
-      <size>
-       <width>20</width>
-       <height>20</height>
-      </size>
+     <property name="autoDefault">
+      <bool>true</bool>
      </property>
-    </widget>
-   </item>
-   <item row="2" column="2">
-    <widget class="QPushButton" name="eliminar">
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>120</width>
-       <height>35</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <family>Arial</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Eliminar</string>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>icon/cancel.png</normaloff>icon/cancel.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>20</width>
-       <height>20</height>
-      </size>
+     <property name="default">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
@@ -188,14 +143,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Codigo de Categoria:</string>
         </property>
@@ -248,8 +195,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -328,14 +274,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Nombre</string>
         </property>
@@ -344,7 +282,7 @@
       <item row="0" column="1" colspan="2">
        <widget class="QLineEdit" name="id_categoria">
         <property name="enabled">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -391,8 +329,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>

@@ -83,8 +83,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -163,14 +162,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Codigo de Proveedor:</string>
         </property>
@@ -248,14 +239,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Direccion:</string>
         </property>
@@ -308,8 +291,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -366,8 +348,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -446,14 +427,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>E-Mail</string>
         </property>
@@ -531,14 +504,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Vendedor:</string>
         </property>
@@ -591,8 +556,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -646,8 +610,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -726,14 +689,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Localidad:</string>
         </property>
@@ -810,14 +765,6 @@
            </colorrole>
           </disabled>
          </palette>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
         </property>
         <property name="text">
          <string>Nombre</string>
@@ -896,14 +843,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Telefono:</string>
         </property>
@@ -981,14 +920,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Celular</string>
         </property>
@@ -1041,8 +972,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -1096,8 +1026,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -1176,14 +1105,6 @@
           </disabled>
          </palette>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Razon Social:</string>
         </property>
@@ -1236,8 +1157,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -1291,8 +1211,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -1328,14 +1247,6 @@
        <width>120</width>
        <height>35</height>
       </size>
-     </property>
-     <property name="font">
-      <font>
-       <family>Arial</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
      </property>
      <property name="text">
       <string>Guardar (Ctrl + G)</string>

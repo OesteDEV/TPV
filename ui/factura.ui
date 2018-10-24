@@ -16,12 +16,6 @@
   <layout class="QGridLayout" name="gridLayout_3" rowstretch="0,80,0" columnstretch="95,0">
    <item row="1" column="0" rowspan="2">
     <widget class="QGroupBox" name="groupBox_2">
-     <property name="font">
-      <font>
-       <family>Arial</family>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
      <property name="title">
       <string/>
      </property>
@@ -72,14 +66,6 @@
          <width>0</width>
          <height>30</height>
         </size>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
        </property>
        <property name="text">
         <string>Código:</string>
@@ -137,14 +123,6 @@
          </disabled>
         </palette>
        </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
       </widget>
      </item>
      <item>
@@ -163,26 +141,12 @@
            <height>30</height>
           </size>
          </property>
-         <property name="font">
-          <font>
-           <family>Arial</family>
-           <pointsize>10</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
          <property name="text">
           <string>Buscar ( B )</string>
          </property>
          <property name="icon">
           <iconset>
            <normaloff>icon/lupa.png</normaloff>icon/lupa.png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
          </property>
         </widget>
        </item>
@@ -200,26 +164,12 @@
            <height>30</height>
           </size>
          </property>
-         <property name="font">
-          <font>
-           <family>Arial</family>
-           <pointsize>10</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
          <property name="text">
           <string>Anular ( A )</string>
          </property>
          <property name="icon">
           <iconset>
            <normaloff>icon/cancel.png</normaloff>icon/cancel.png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
          </property>
         </widget>
        </item>
@@ -237,26 +187,12 @@
            <height>30</height>
           </size>
          </property>
-         <property name="font">
-          <font>
-           <family>Arial</family>
-           <pointsize>10</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
          <property name="text">
           <string>Limpiar ( L )</string>
          </property>
          <property name="icon">
           <iconset>
            <normaloff>icon/limpia.png</normaloff>icon/limpia.png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
          </property>
         </widget>
        </item>
@@ -266,12 +202,6 @@
    </item>
    <item row="0" column="1" rowspan="3">
     <widget class="QGroupBox" name="groupBox">
-     <property name="font">
-      <font>
-       <family>Arial</family>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
      <property name="styleSheet">
       <string notr="true">#groupBox{
 background-color: #FFFFFF
@@ -288,14 +218,6 @@ background-color: #FFFFFF
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
         </property>
         <property name="text">
          <string>Buscar ( B )</string>
@@ -314,14 +236,6 @@ background-color: #FFFFFF
       </item>
       <item row="4" column="0" colspan="2">
        <widget class="QLabel" name="label_8">
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>8</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Av. Sarmiento 1279 - Marcos Paz</string>
         </property>
@@ -346,8 +260,7 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>11</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -369,14 +282,6 @@ background-color: #FFFFFF
       </item>
       <item row="0" column="0" colspan="2">
        <widget class="QLabel" name="label_4">
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>20</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Oeste-DEV</string>
         </property>
@@ -393,14 +298,6 @@ background-color: #FFFFFF
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Pago en:</string>
         </property>
@@ -416,7 +313,7 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <pointsize>26</pointsize>
+          <pointsize>20</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -482,7 +379,7 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <pointsize>26</pointsize>
+          <pointsize>20</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -548,7 +445,7 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <pointsize>26</pointsize>
+          <pointsize>20</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -614,8 +511,7 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
-          <pointsize>12</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -634,14 +530,6 @@ background-color: #FFFFFF
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
         </property>
         <property name="text">
          <string>CAMBIO:</string>
@@ -668,14 +556,6 @@ background-color: #FFFFFF
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
         </property>
         <property name="text">
          <string>ABONA CON:</string>
@@ -729,7 +609,6 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
           <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
@@ -760,14 +639,6 @@ background-color: #FFFFFF
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>TOTAL:</string>
         </property>
@@ -775,12 +646,6 @@ background-color: #FFFFFF
       </item>
       <item row="16" column="0" colspan="2">
        <spacer name="verticalSpacer">
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-         </font>
-        </property>
         <property name="orientation">
          <enum>Qt::Vertical</enum>
         </property>
@@ -794,12 +659,6 @@ background-color: #FFFFFF
       </item>
       <item row="20" column="0" colspan="2">
        <spacer name="verticalSpacer_2">
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-         </font>
-        </property>
         <property name="orientation">
          <enum>Qt::Vertical</enum>
         </property>
@@ -819,14 +678,6 @@ background-color: #FFFFFF
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Fecha</string>
         </property>
@@ -834,14 +685,6 @@ background-color: #FFFFFF
       </item>
       <item row="1" column="0" colspan="2">
        <widget class="QLabel" name="label_9">
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>8</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
         <property name="text">
          <string>CUIT: 20343318554</string>
         </property>
@@ -852,14 +695,6 @@ background-color: #FFFFFF
       </item>
       <item row="2" column="0" colspan="2">
        <widget class="QLabel" name="label_15">
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>8</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Inicio de Actividades: 01/08/2018</string>
         </property>
@@ -870,14 +705,6 @@ background-color: #FFFFFF
       </item>
       <item row="3" column="0" colspan="2">
        <widget class="QLabel" name="label_16">
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>8</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
         <property name="text">
          <string>Monotributista</string>
         </property>
@@ -936,7 +763,6 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
           <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
@@ -994,7 +820,6 @@ background-color: #FFFFFF
         </property>
         <property name="font">
          <font>
-          <family>Arial</family>
           <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>

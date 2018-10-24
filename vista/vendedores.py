@@ -26,15 +26,6 @@ class Vendedores(QtWidgets.QWidget):
 		#Importamos la vista "listaAfiliados" y la alojamos dentro de la variable "vistaLista"
 		self.venden = uic.loadUi("ui/vendedores.ui", self)
 		self.guardar.clicked.connect(self.Insertar)
-		
-		conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="tpv")
-		cursor = conexion.cursor()
-		last_id = "SELECT * FROM vendedores ORDER BY id_vendedor DESC LIMIT 1"	
-		cursor.execute(last_id)
-		codigo = cursor.fetchone()
-		for row in codigo:
-			cod = codigo[0] + 1
-			self.id_vendedor.setText(str(cod))
 
 	def Insertar(self):
 		conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="tpv")
