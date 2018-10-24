@@ -39,8 +39,36 @@
       <string/>
      </property>
      <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,0,0">
-      <item row="2" column="0" colspan="3">
-       <widget class="QTableView" name="tableView"/>
+      <item row="0" column="2" rowspan="2">
+       <widget class="QPushButton" name="nuevo">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Agregar Nuevo ( N )</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/nuevo.png</normaloff>icon/nuevo.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
       </item>
       <item row="0" column="1" rowspan="2">
        <widget class="QLineEdit" name="lineEdit">
@@ -80,14 +108,8 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="2" rowspan="2">
-       <widget class="QPushButton" name="nuevo">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
+      <item row="2" column="0" colspan="3">
+       <widget class="QTableWidget" name="tableWidget">
         <property name="font">
          <font>
           <family>Arial</family>
@@ -96,19 +118,14 @@
           <bold>true</bold>
          </font>
         </property>
-        <property name="text">
-         <string>Agregar Nuevo ( N )</string>
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
         </property>
-        <property name="icon">
-         <iconset>
-          <normaloff>icon/nuevo.png</normaloff>icon/nuevo.png</iconset>
+        <property name="columnCount">
+         <number>2</number>
         </property>
-        <property name="iconSize">
-         <size>
-          <width>20</width>
-          <height>20</height>
-         </size>
-        </property>
+        <column/>
+        <column/>
        </widget>
       </item>
      </layout>

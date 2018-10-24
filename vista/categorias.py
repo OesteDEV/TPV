@@ -25,8 +25,7 @@ class Categorias(QtWidgets.QWidget):
 
 		#Importamos la vista "listaAfiliados" y la alojamos dentro de la variable "vistaLista"
 		self.category = uic.loadUi("ui/categorias.ui", self)		
-		self.guardar.clicked.connect(self.Insertar)
-		
+		self.guardar.clicked.connect(self.Insertar)		
 		conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="tpv")
 		cursor = conexion.cursor()
 		last_id = "SELECT * FROM categorias ORDER BY id_categoria DESC LIMIT 1"	
@@ -35,6 +34,7 @@ class Categorias(QtWidgets.QWidget):
 		for row in codigo:
 			cod = codigo[0] + 1
 			self.id_categoria.setText(str(cod))
+			self.close()
 
 	def Insertar(self):
 		conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="tpv")

@@ -11,6 +11,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QPushButton, QSt
 # Importamos el modulo uic necesario para levantar un archivo .ui
 from PyQt5 import uic
 from vista import vendedores
+import mysql.connector
 
 #====================
 #DEFINICION DE CLASES
@@ -25,6 +26,18 @@ class ListaVendedores(QtWidgets.QWidget):
 		#Importamos la vista "listaAfiliados" y la alojamos dentro de la variable "vistaLista"
 		self.listaVendedores = uic.loadUi("ui/listavendedores.ui", self)
 		self.nuevo.clicked.connect(self.seleccionarVendedores)
+		conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="tpv")
+		cursor = conexion.cursor()	
+		listavendedores = "SELECT id_vendedor, nombre_vendedor FROM vendedores"	
+		cursor.execute(listavendedores)
+		lista = cursor.fetchall()
+		for row1, row2  in lista:
+			id_ven = row1
+			nom_ven = row2
+			numRows = self.tableWidget.rowCount()
+			self.tableWidget.insertRow(numRows)
+			self.tableWidget.setItem(numRows, 0, QtWidgets.QTableWidgetItem(id_ven))
+			self.tableWidget.setItem(numRows, 1, QtWidgets.QTableWidgetItem(nom_ven))	
 
 	def seleccionarVendedores(self):
 		detalle_vendedores = vendedores.Vendedores()
