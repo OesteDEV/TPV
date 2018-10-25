@@ -58,16 +58,9 @@ class ListaCategorias(QtWidgets.QWidget):
 			# Seleccionar toda la fila
 			self.tableWidget.setSelectionBehavior(QAbstractItemView.SelectRows)
 		#Ver detalle del afiliado al hacer doble click
-		category = self.tableWidget.itemDoubleClicked.connect(self.verDetalle)
-
-
-	def verDetalle(self):
-		detalle_categorias = categorias.Categorias()
-		detalle_categorias.show()
-		for currentQTableWidgetItem in self.tableWidget.selectedItems():
-			tmp_id_cat = currentQTableWidgetItem.column()
-			tmp_nom_cat = currentQTableWidgetItem.text()
-
+		verD = categorias.Categorias.verDetalles()
+		self.tableWidget.itemDoubleClicked.connect(self.verD)
+	
 	def seleccionarCategorias(self):
 		detalle_categorias = categorias.Categorias()
 		detalle_categorias.show()
@@ -79,5 +72,4 @@ class ListaCategorias(QtWidgets.QWidget):
 			self.tableWidget.removeRow(fila)
 			self.tableWidget.clearSelection()
 		else:
-			QMessageBox.critical(self, "Eliminar fila", "Seleccione una fila.   ",
-                                 QMessageBox.Ok)
+			QMessageBox.critical(self, "Eliminar fila", "Seleccione una fila.   ", QMessageBox.Ok)

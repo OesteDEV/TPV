@@ -39,4 +39,26 @@ class Categorias(QtWidgets.QWidget):
 		conexion.close()
 		self.close()
 
+	def actualizar(self):
+		conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="tpv")
+		cursor = conexion.cursor()
+		idcateg = self.id_categoria.text()
+		nombrecateg = self.nombre_categoria.text()			
+		sql = "INSERT INTO categorias (id_categoria, nombre_categoria) VALUES (%s, %s)"
+		val=(idcateg, nombrecateg)
+		cursor.execute(sql, val)
+		conexion.commit()
+		conexion.close()
+		self.close()
 
+
+	def verDetalle(self):
+		detalle_categorias = categorias.Categorias()
+		detalle_categorias.show()
+		for currentQTableWidgetItem in self.tableWidget.selectedItems():
+			tmp_id_cat = currentQTableWidgetItem.row()
+			tmp_nom_cat = currentQTableWidgetItem.text()
+			detalle_categorias.id_categoria.setText(str(tmp_id_cat))
+			detalle_categorias.id_categoria.setEnabled(False)
+			nombre_cat = detalle_categorias.nombre_categoria.setText(tmp_nom_cat)
+			detalle_categorias.guardar.setEnabled(False)

@@ -348,6 +348,35 @@
      </layout>
     </widget>
    </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="modificar">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>120</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Actualizar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/actualizar.png</normaloff>icon/actualizar.png</iconset>
+     </property>
+     <property name="autoDefault">
+      <bool>true</bool>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>
